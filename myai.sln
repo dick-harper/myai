@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myai.api", "myai.api\myai.api.csproj", "{119B4F49-C468-404F-8754-1876D4C764FA}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FBFE9B0D-BBF4-456A-92AC-03DC9A1C4834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myai.web", "myai.web\myai.web.csproj", "{1C8D760B-5BD4-4773-81AB-152BEFB73701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{119B4F49-C468-404F-8754-1876D4C764FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119B4F49-C468-404F-8754-1876D4C764FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119B4F49-C468-404F-8754-1876D4C764FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFE9B0D-BBF4-456A-92AC-03DC9A1C4834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFE9B0D-BBF4-456A-92AC-03DC9A1C4834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFE9B0D-BBF4-456A-92AC-03DC9A1C4834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFE9B0D-BBF4-456A-92AC-03DC9A1C4834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8D760B-5BD4-4773-81AB-152BEFB73701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8D760B-5BD4-4773-81AB-152BEFB73701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8D760B-5BD4-4773-81AB-152BEFB73701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8D760B-5BD4-4773-81AB-152BEFB73701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  myai.api:
+    image: myai.api
+    build:
+      context: ./myai.api
+      dockerfile: Dockerfile
+
+  myai.web:
+    image: myai.web
+    build:
+      context: ./myai.web
+      dockerfile: Dockerfile

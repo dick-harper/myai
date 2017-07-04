@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:53440/",
+      "applicationUrl": "http://localhost:56347/",
       "sslPort": 0
     }
   },
@@ -14,13 +14,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "myai.api": {
+    "myai.web": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:53441"
+      "applicationUrl": "http://localhost:56348"
     }
   }
 }
